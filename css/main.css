@@ -4,8 +4,10 @@ body{
   color: var(--main_color);
 }
 .dark{
+  
   --big_color: #202C36;
   --main_color: #fff;
+  color: white;
 }
 button{
   border: none;
