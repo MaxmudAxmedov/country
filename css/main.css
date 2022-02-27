@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  background-color: var(--big_color);
+  color: var(--main_color);
+}
+.dark{
+  --big_color: #202C36;
+  --main_color: #fff;
+}
+button{
+  border: none;
+  color: var(--main_color);
+  background-color: transparent;
+}
+input, select, .list{
+  border: none !important;
+}
+.inputs{
+  background-color: var(--big_color);
+  color: var(--main_color);
+}
+.form-select{
+  background-color: var(--big_color);
+  color: var(--main_color);
+}
+.link-dark{
+  background-color: var(--big_color);
+  color: var(--main_color);
+}
+.arrow{
+  background-color: var(--big_color);
+  color: var(--main_color);
+}
+.title{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+}
